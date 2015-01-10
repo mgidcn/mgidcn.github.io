@@ -1,0 +1,2236 @@
+<!DOCTYPE html>
+<html>
+
+<!--[if IE 6]>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<![endif]-->
+
+<head>
+    <title>MGID</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+
+    <link href="css/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+
+    <link href="css/movingboxes.css" media="screen" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <link href="css/movingboxes-ie.css" rel="stylesheet" media="screen">
+    <![endif]-->
+
+    <link href="Blocks-main.css" media="screen" rel="stylesheet" type="text/css">
+    <!--[if IE ]>
+    <link href="Blocks-main-deprecated.css" media="screen" rel="stylesheet" type="text/css">
+    <![endif]-->
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.movingboxes.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sudoSlider.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+
+    <style type="text/css">
+        #mainGroup .GroupItem {
+            width: 310px;
+        }
+
+        #mainBigWide {
+            margin: 10px 0;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#mainWindow-slider").sudoSlider({
+                numeric:false,
+                continuous:true,
+                fade:true,
+                auto:true
+            });
+
+            $("#mainWindow2-slider").sudoSlider({
+                numeric:true,
+                continuous:true,
+                vertical:true,
+                auto:true
+            });
+
+            $('#mainWide-slider').jcarousel({
+                auto:2,
+                wrap:'last'
+            });
+
+            $('#mainInsert-accordion').accordion();
+
+            $('#mainPlus-accordion').accordion();
+
+            $('#mainSliding-slider').movingBoxes({
+                hashTags:false,
+                startPanel:2,
+                reducedSize:0.95,
+                fixedHeight:false,
+                speed:500,
+                wrap:true,
+                buildNav:false,
+                currentPanel:'current'
+            });
+
+            $('#mainLong-slider').jcarousel({
+                auto:2,
+                wrap:'last'
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div id="mainContainer">
+<div id="backing">
+<div id="container">
+
+<h1>Window</h1>
+
+<div class="block block1 squared Window" id="mainWindow">
+    <div class="slider" id="mainWindow-slider">
+        <ul>
+            <li>
+                <div class="item">
+                    <table>
+                        <tr>
+                            <td class="overviewContainer">
+                                <div class="overview">
+                                    <a href="#" class="heading">探访关岛原住民生存方式</a>
+                                    <span class="description">饮食以烧烤为主，个个膀大腰圆</span>
+                                </div>
+                            </td>
+                            <td class="imageContainer">
+                                <a href="#" class="image">
+                                    <img src="images/MainWindow-1.jpg" alt="">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <table>
+                        <tr>
+                            <td class="overviewContainer">
+                                <div class="overview">
+                                    <a href="#" class="heading">央视网女记者无辜遭人割鼻</a>
+                                    <span class="description">疑犯为什么向女记者挥刀？</span>
+                                </div>
+                            </td>
+                            <td class="imageContainer">
+                                <a href="#" class="image">
+                                    <img src="images/MainWindow-2.jpg" alt="">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <table>
+                        <tr>
+                            <td class="overviewContainer">
+                                <div class="overview">
+                                    <a href="#" class="heading">现实印度和你想象中的差距</a>
+                                    <span class="description">这个历史悠久的文明古国，似乎散发出淡淡的佛性</span>
+                                </div>
+                            </td>
+                            <td class="imageContainer">
+                                <a href="#" class="image">
+                                    <img src="images/MainWindow-3.jpg" alt="">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <table>
+                        <tr>
+                            <td class="overviewContainer">
+                                <div class="overview">
+                                    <a href="#" class="heading">义乌人怎么赚钱</a>
+                                    <span class="description">放长线钓大鱼</span>
+                                </div>
+                            </td>
+                            <td class="imageContainer">
+                                <a href="#" class="image">
+                                    <img src="images/MainWindow-4.jpg" alt="">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <table>
+                        <tr>
+                            <td class="overviewContainer">
+                                <div class="overview">
+                                    <a href="#" class="heading">盘点2012最贵的汽车</a>
+                                    <span class="description">最贵的布莱迪威龙竟达260万美元</span>
+                                </div>
+                            </td>
+                            <td class="imageContainer">
+                                <a href="#" class="image">
+                                    <img src="images/MainWindow-5.jpg" alt="">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<h1>TopWindow</h1>
+
+
+<div class="block squared">
+    <div class="subblock twoThirdsBlock squared TopWindow">
+        <div class="item">
+            <table>
+                <tr>
+                    <td class="imageContainer">
+                        <a href="#" class="image">
+                            <img src="images/TransitTopWindow.jpg" alt="">
+                        </a>
+                    </td>
+                    <td class="overviewContainer">
+                        <div class="overview">
+                            <a href="#" class="title">
+                                <span>近期上市国产中高级轿车</span>
+                            </a>
+                            <a href="#" class="description">
+                                <span>欲购国产中国级轿车必看</span>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="subblock oneThirdBlock squared Hot">
+        <div class="item first">
+            <div class="container">
+                <a href="#" class="contentHot">
+                    <div class="image">
+                        <img src="images/TransitHot-1.jpg" alt="">
+                    </div>
+                    <p class="overview">
+                        <span class="title">考古未公布的惊人照片</span>
+                        <span class="description">前所未见的惊人照片</span>
+                    </p>
+                </a>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="container">
+                <a href="#" class="contentHot">
+                    <div class="image">
+                        <img src="images/TransitHot-2.jpg" alt="">
+                    </div>
+                    <p class="overview">
+                        <span class="title">郭美美妈与男子合租欠债逃跑</span>
+                        <span class="description">为郭美美事件上电视被房东认出</span>
+                    </p>
+                </a>
+            </div>
+        </div>
+
+        <div class="item last">
+            <div class="container">
+                <a href="#" class="contentHot">
+                    <div class="image">
+                        <img src="images/TransitHot-3.jpg" alt="">
+                    </div>
+                    <p class="overview">
+                        <span class="title">阿斯顿马丁Zagato正式亮相</span>
+                        <span class="description">全球限量150台，预售价超千万</span>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h1>SlideWindow</h1>
+
+<div class="block squared block1">
+    <div class="subblock twoThirdsBlock squared SlideWindow">
+        <div class="slider" id="mainWindow2-slider">
+            <ul>
+                <li>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/CatWindow-1.jpg" alt="">
+
+                            <p class="title">
+                                <span>迪拜街上奔驰的超级跑车</span>
+                            </p>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/CatWindow-2.jpg" alt="">
+
+                            <p class="title">
+                                <span>农用车迎面撞烂宝马</span>
+                            </p>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/CatWindow-3.jpg" alt="">
+
+                            <p class="title">
+                                <span>实拍央视食堂</span>
+                            </p>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/CatWindow-4.jpg" alt="">
+
+                            <p class="title">
+                                <span>日本版本田CR-V静态评测</span>
+                            </p>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/CatWindow-5.jpg" alt="">
+
+                            <p class="title">
+                                <span>纽约警察故事纪实</span>
+                            </p>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="subblock oneThirdBlock squared Hot">
+        <div class="item first">
+            <div class="container">
+                <a href="#" class="contentHot">
+                    <div class="image">
+                        <img src="images/CatHotNews-1.jpg" alt="">
+                    </div>
+                    <p class="overview">
+                        <span class="title">飞利浦收购奔腾电器</span>
+                        <span class="description">饮食以烧烤为主，个个膀大腰圆</span>
+                    </p>
+                </a>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="container">
+                <a href="#" class="contentHot">
+                    <div class="image">
+                        <img src="images/CatHotNews-2.jpg" alt="">
+                    </div>
+                    <p class="overview">
+                        <span class="title">看牛人如何自制悍马车</span>
+                        <span class="description">慓悍的人制造慓悍的车</span>
+                    </p>
+                </a>
+            </div>
+        </div>
+
+        <div class="item last">
+            <div class="container">
+                <a href="#" class="contentHot">
+                    <div class="image">
+                        <img src="images/CatHotNews-3.jpg" alt="">
+                    </div>
+                    <p class="overview">
+                        <span class="title">维迪奇射失点球 或退国家队</span>
+                        <span class="description">维迪奇射失点球导致球队出局，可能趁此机会退出国家队</span>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="WindowBottom"></div>
+
+
+<div class="block block2">
+    <div class="subblock twoThirdsBlock Wide" id="mainWide">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">Wide</div>
+                <div class="description">wide</div>
+            </div>
+            <div class="content indentContent">
+                <div class="status status-hotColorLeft"></div>
+
+                <div class="hotNews">
+                    <div class="imageContainer">
+                        <a href="#notnews" class="image">
+                            <img src="images/HotNews.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="data">
+                        <div class="heading">
+                            <a href="#hotnews">未来的社交媒体是怎样的？</a>
+                        </div>
+                        <div class="body">
+                            <p class="source">来自：腾讯网</p>
+
+                            <p>关于未来的社交媒体，仁者见仁，智者见智，公司，名人，政府，各自观点不一。
+                                Businessinsider采访了企业家，学者，研究人员，热情的社交媒体参与者，文中是他们的看法。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dotsSeparator"></div>
+
+                <div class="sliderContainer">
+                    <ul class="slider" id="mainWide-slider">
+                        <li class="item">
+                            <a href="#" class="image">
+                                <img src="images/MainWideSlider-1.jpg" alt="">
+                                <span>探访关岛原住民生存方式</span>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="image">
+                                <img src="images/MainWideSlider-1.jpg" alt="">
+                                <span>探访关岛原住民生存方式</span>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="image">
+                                <img src="images/MainWideSlider-1.jpg" alt="">
+                                <span>探访关岛原住民生存方式</span>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="image">
+                                <img src="images/MainWideSlider-1.jpg" alt="">
+                                <span>探访关岛原住民生存方式</span>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="image">
+                                <img src="images/MainWideSlider-1.jpg" alt="">
+                                <span>探访关岛原住民生存方式</span>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="image">
+                                <img src="images/MainWideSlider-1.jpg" alt="">
+                                <span>探访关岛原住民生存方式</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="subblock oneThirdBlock Txt">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">Txt</div>
+                <div class="description">txt</div>
+            </div>
+            <div class="content">
+                <ul class="list">
+                    <li class="item first">
+                        <a href="#">
+                            <span class="title">推荐4款值得购买的进口SUV</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="item first">
+                        <a href="#">
+                            <span class="title">豪华婚礼 没有最贵只有更贵</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="item first">
+                        <a href="#">
+                            <span class="title">八大最受欢迎的考古发现</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="item first">
+                        <a href="#">
+                            <span class="title">小萧亚轩献身法拉利</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="item first">
+                        <a href="#">
+                            <span class="title">国内新能源汽车市场"断电"</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="item first">
+                        <a href="#">
+                            <span class="title">北京未来第一高楼下周开工</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="item first">
+                        <a href="#">
+                            <span class="title">奥迪A1对比大众POLO</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="item first">
+                        <a href="#">
+                            <span class="title">小萧亚轩献身法拉利</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="item first">
+                        <a href="#">
+                            <span class="title">国内新能源汽车市场"断电"</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="item first">
+                        <a href="#">
+                            <span class="title">北京未来第一高楼下周开工</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="block block3">
+<div class="subblock twoThirdsBlock">
+    <div class="indentContent">
+        <div class="block Vertical">
+            <div class="subblock">
+                <div class="contentBlock">
+                    <div class="heading">
+                        <div class="title">Vertical</div>
+                        <div class="description">vertical</div>
+                    </div>
+                    <div class="content">
+                        <div class="mainItem">
+                            <a href="#" class="item">
+                                <span class="image">
+                                    <img src="images/MainVertical.jpg" alt="">
+                                </span>
+
+                                <h3 class="description">
+                                    <span>遍地狼烟</span>
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="list">
+                            <div class="item first">
+                                <a href="#" class="title">值得购买CROSS车型</a>
+                                <a href="#" class="description">年轻消费者的最爱</a>
+                            </div>
+                            <div class="dotsSeparator"></div>
+                            <div class="item">
+                                <a href="#" class="title">探访关岛原住民生存方式</a>
+                                <a href="#" class="description">饮食以烧烤为主，个个膀大腰圆</a>
+                            </div>
+                            <div class="dotsSeparator"></div>
+                            <div class="item">
+                                <a href="#" class="title">冷酷美女真空出镜显妖娆</a>
+                                <a href="#" class="description">性感冷艳MM“杀气”腾腾看过来。</a>
+                            </div>
+                            <div class="dotsSeparator"></div>
+                            <div class="item">
+                                <a href="#" class="title">“占领华尔街”，美国人见怪不怪</a>
+                                <a href="#" class="description">‘占领华尔街’对普通美国民众生活的影响微乎其微。</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="subblock Simple" id="mainSimple">
+                <div class="contentBlock">
+                    <div class="heading">
+                        <div class="title">Simple</div>
+                        <div class="description">simple</div>
+                    </div>
+                    <div class="content">
+                        <table class="container">
+                            <tr>
+                                <td>
+
+
+                                    <div class="topItem">
+                                        <div class="imageContainer">
+                                            <a href="#" class="image">
+                                                <img src="images/MainSimple.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="data">
+                                            <div class="title">
+                                                <a href="#hotnews">给三十岁的男人推荐的好车</a>
+                                            </div>
+                                            <div class="body">
+                                                三十而立的豪华好车推荐
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dotsSeparator"></div>
+
+                                    <div class="topItem">
+                                        <div class="imageContainer">
+                                            <a href="#" class="image">
+                                                <img src="images/MainSimple.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="data">
+                                            <div class="title">
+                                                <a href="#hotnews">给三十岁的男人推荐的好车</a>
+                                            </div>
+                                            <div class="body">
+                                                三十而立的豪华好车推荐
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </td>
+                                <td class="separator">
+                                    <div></div>
+                                </td>
+                                <td>
+
+
+                                    <div class="list">
+                                        <div class="item">
+                                            <a href="#" class="title">中国功夫当真世界无敌</a>
+                                            <a href="#" class="description">少林武僧赌城击败原美国海豹突击队员</a>
+                                        </div>
+                                        <div class="dotsSeparator"></div>
+                                        <div class="item">
+                                            <a href="#" class="title">地铁安检不安全，该打谁板子</a>
+                                            <a href="#" class="description">深圳人居环境委证实这些机器确实是违法设置</a>
+                                        </div>
+                                        <div class="dotsSeparator"></div>
+                                        <div class="item">
+                                            <a href="#" class="title">主帅帕切科继续执教北京国安</a>
+                                            <a href="#" class="description">北京国安召开新闻发布会，以现场签约的方式宣布正式签约帕切科。</a>
+                                        </div>
+                                        <div class="dotsSeparator"></div>
+                                        <div class="item">
+                                            <a href="#" class="title">一妇女手术后现东欧口音</a>
+                                            <a href="#" class="description">她上网查询，才知道自己得了“外国口音综合征”。</a>
+                                        </div>
+                                        <div class="dotsSeparator"></div>
+                                        <div class="item">
+                                            <a href="#" class="title">做一毛钱小生意竟年赚百万</a>
+                                            <a href="#" class="description">小生意里藏有大买卖</a>
+                                        </div>
+                                    </div>
+
+
+                                </td>
+                            </tr>
+                        </table>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="subblock oneThirdBlock Erect" id="mainErect">
+    <div class="contentBlock">
+        <div class="heading">
+            <div class="title">Erect</div>
+            <div class="description">erect</div>
+        </div>
+        <div class="content">
+            <div class="imagesList">
+                <div class="items firstLineImages">
+                    <div class="item first">
+                        <a href="#" class="image">
+                            <img src="images/MainErect-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainErect-2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="items secondLineImages">
+                    <div class="item first">
+                        <a href="#" class="image">
+                            <img src="images/MainErect-3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainErect-4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainErect-5.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="items thirdLineImages">
+                    <div class="item first">
+                        <a href="#" class="image">
+                            <img src="images/MainErect-6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="items fourthLineImages">
+                    <div class="item first">
+                        <a href="#" class="image">
+                            <img src="images/MainErect-7.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="block block4">
+    <div class="subblock twoThirdsBlock Insert" id="mainInsert">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">Insert</div>
+                <div class="description">insert</div>
+            </div>
+            <div class="content indentContent" style="height: 370px">
+
+                <div class="accordion" id="mainInsert-accordion">
+                    <h3><a href="#">国产雪佛兰科帕奇明年推出</a></h3>
+
+                    <div>
+                        <div class="mainItem">
+                            <div class="imageContainer">
+                                <a href="#" class="image">
+                                    <img src="images/MainInsert-1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="overview">
+                                <div class="heading">
+                                    <a href="#hotnews">国产雪佛兰科帕奇明年推出</a>
+                                </div>
+                                <div class="body">
+                                    <p class="source">来自：爱卡汽车</p>
+
+                                    <p class="description">创造全新的跨界风格，吸引年轻潮流追随者</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3><a href="#">湖北农民自制潜艇成功下水</a></h3>
+
+                    <div>
+                        <div class="mainItem">
+                            <div class="imageContainer">
+                                <a href="#" class="image">
+                                    <img src="images/MainInsert-7.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="overview">
+                                <div class="heading">
+                                    <a href="#hotnews">湖北农民自制潜艇成功下水</a>
+                                </div>
+                                <div class="body">
+                                    <p class="source">来自：行业中国</p>
+
+                                    <p class="description">8月29日，湖北农民张五一驾驶自制潜艇“曙光号”在武汉墨水湖进行下潜试验。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3><a href="#">今年上半年家轿销量十强</a></h3>
+
+                    <div>
+                        <div class="mainItem">
+                            <div class="imageContainer">
+                                <a href="#" class="image">
+                                    <img src="images/MainInsert-13.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="overview">
+                                <div class="heading">
+                                    <a href="#hotnews">今年上半年家轿销量十强</a>
+                                </div>
+                                <div class="body">
+                                    <p class="source">来自：Discuz!</p>
+
+                                    <p class="description">朗逸居首，凯越紧跟其后。</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dotsSeparator"></div>
+                    </div>
+                    <h3><a href="#">所有年轻男孩关注的话题</a></h3>
+
+                    <div>
+                        <div class="mainItem">
+                            <div class="imageContainer">
+                                <a href="#" class="image">
+                                    <img src="images/MainInsert-19.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="overview">
+                                <div class="heading">
+                                    <a href="#hotnews">所有年轻男孩关注的话题</a>
+                                </div>
+                                <div class="body">
+                                    <p class="source">来自：17k小说网</p>
+
+                                    <p class="description">如果有一天，你身边突然多出一个天真烂漫，清纯可爱把你当作是她的一切会怎样</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dotsSeparator"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="subblock oneThirdBlock Small" id="mainSmall">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">Small</div>
+                <div class="description">small</div>
+            </div>
+            <div class="content">
+                <div class="images">
+                    <div class="item first">
+                        <a href="#" class="image">
+                            <img src="images/MainSmall-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSmall-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSmall-3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item big">
+                        <a href="#" class="image">
+                            <img src="images/MainSmall-4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSmall-5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSmall-6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="block block5 ChessBig">
+    <div class="subblock">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">ChessBig</div>
+                <div class="description">chessbig</div>
+            </div>
+            <div class="content">
+                <div class="block">
+                    <div class="subblock">
+                        <ul class="list">
+                            <li class="item first">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessBig-1.jpg" alt="">
+
+                                        <p class="overview">
+                                            <span class="title">自动挡汽车常见的误区</span>
+                                            <span class="description">世间百态，在街头体现</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="item second">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessBig-2.jpg" alt="">
+
+                                        <p class="overview">
+                                            <span class="title">出嫁难 印度美女剩的多</span>
+                                            <span class="description">蒋介石身边的女速记员就是共产党员</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="item third">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessBig-3.jpg" alt="">
+
+                                        <p class="overview">
+                                            <span class="title">央视知名主播直播现场发飙</span>
+                                            <span class="description">下赛季只能被迫外租</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="item fourth">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessBig-4.jpg" alt="">
+
+                                        <p class="overview">
+                                            <span class="title">房祖名百万豪车引老外围观</span>
+                                            <span class="description">报道洛阳“性奴案”的记者却发微博称，他遭相关人士质问并称他侵犯了“国家机密”</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="item fifth">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessBig-5.jpg" alt="">
+
+                                        <p class="overview">
+                                            <span class="title">盘点体坛离婚事件</span>
+                                            <span class="description">近日，三名美女竟然裹着浴巾去逛街</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="item sixth">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessBig-6.jpg" alt="">
+
+                                        <p class="overview">
+                                            <span class="title">对话富士康跳楼幸存女工</span>
+                                            <span class="description">自动挡车到底该怎么开</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="block block6">
+<div class="subblock twoThirdsBlock Group" id="mainGroup">
+    <div class="contentBlock">
+        <div class="heading">
+            <div class="title">Group</div>
+            <div class="description">group</div>
+        </div>
+        <div class="content indentContent">
+
+            <div class="block">
+                <div class="subblock GroupItem GroupItem-first">
+                    <div class="content">
+                        <div class="status status-hotMonoRight"></div>
+
+                        <div class="item">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#" class="image">
+                                            <img src="images/MainGroup-1.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <div class="overview">
+                                            <a href="#" class="title">自动挡汽车常见的误区</a>
+                                            <a href="#" class="description">希望有助于广大车主走出使用误区</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="item">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#" class="image">
+                                            <img src="images/MainGroup-2.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <div class="overview">
+                                            <a href="#" class="title">车模兽兽的悲惨结局曝光</a>
+                                            <a href="#" class="description">被北京车市抛弃为哪般</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="item">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#" class="image">
+                                            <img src="images/MainGroup-3.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <div class="overview">
+                                            <a href="#" class="title">直击云南武警魔鬼训练</a>
+                                            <a href="#" class="description">多课目、高难度、超负荷</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="subblock GroupItem">
+                    <div class="content">
+                        <div class="status status-newMonoRight"></div>
+
+                        <div class="item">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#" class="image">
+                                            <img src="images/MainGroup-4.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <div class="overview">
+                                            <a href="#" class="title">如何应对冬季行车恐惧症</a>
+                                            <a href="#" class="description">名爵汽车给新手们点建议</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="item">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#" class="image">
+                                            <img src="images/MainGroup-5.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <div class="overview">
+                                            <a href="#" class="title">成都女协管遭交委副处长围殴</a>
+                                            <a href="#" class="description">只因亲属被协管制止</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="item">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#" class="image">
+                                            <img src="images/MainGroup-6.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <div class="overview">
+                                            <a href="#" class="title">幼儿园老师结婚给孩子发喜帖</a>
+                                            <a href="#" class="description">去还是不去，家长们很为难</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="subblock oneThirdBlock Plus" id="mainPlus">
+    <div class="contentBlock">
+        <div class="heading">
+            <div class="title">Plus</div>
+            <div class="description">plus</div>
+        </div>
+        <div class="content">
+
+            <div class="accordion" id="mainPlus-accordion">
+                <h3><a href="#">坟墓边的童年生活</a></h3>
+
+                <div>
+                    <div class="item">
+                        <div class="imageContainer">
+                            <a href="#" class="image">
+                                <img src="images/MainPlus-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="overview">
+                            <a href="#" class="title">坟墓的高墙成了他们遮风挡雨的地方</a>
+                        </div>
+                    </div>
+                </div>
+                <h3><a href="#">西伯利亚极寒下的原始生活</a></h3>
+
+                <div>
+                    <div class="item">
+                        <div class="imageContainer">
+                            <a href="#" class="image">
+                                <img src="images/MainPlus-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="overview">
+                            <a href="#" class="title">尽管当地人的生活方式有了新的变化，但他们依然没有忘本</a>
+                        </div>
+                    </div>
+                </div>
+                <h3><a href="#">3款主流城市SUV对比</a></h3>
+
+                <div>
+                    <div class="item">
+                        <div class="imageContainer">
+                            <a href="#" class="image">
+                                <img src="images/MainPlus-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="overview">
+                            <a href="#" class="title">供喜爱都市SUV的朋友对比挑选</a>
+                        </div>
+                    </div>
+                </div>
+                <h3><a href="#">卡扎菲儿子儿媳奢侈生活照曝光</a></h3>
+
+                <div>
+                    <div class="item">
+                        <div class="imageContainer">
+                            <a href="#" class="image">
+                                <img src="images/MainPlus-4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="overview">
+                            <a href="#" class="title">卡扎菲儿子儿妻在欧洲各国首都、私人飞机上和埃及海岸边的游艇上参加宴会活动时的情景</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="block block7">
+    <div class="subblock twoThirdsBlock Sliding" id="mainSliding">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">Sliding</div>
+                <div class="description">sliding</div>
+            </div>
+            <div class="content indentContent">
+
+                <ul class="slider" id="mainSliding-slider">
+                    <li class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSliding-1.jpg" alt="">
+                            <span>西伯利亚极寒下的原始生活</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSliding-2.jpg" alt="">
+                            <span>西伯利亚极寒下的原始生活</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSliding-3.jpg" alt="">
+                            <span>西伯利亚极寒下的原始生活</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSliding-4.jpg" alt="">
+                            <span>西伯利亚极寒下的原始生活</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSliding-5.jpg" alt="">
+                            <span>西伯利亚极寒下的原始生活</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSliding-6.jpg" alt="">
+                            <span>西伯利亚极寒下的原始生活</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSliding-7.jpg" alt="">
+                            <span>西伯利亚极寒下的原始生活</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSliding-8.jpg" alt="">
+                            <span>西伯利亚极寒下的原始生活</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSliding-9.jpg" alt="">
+                            <span>西伯利亚极寒下的原始生活</span>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainSliding-10.jpg" alt="">
+                            <span>西伯利亚极寒下的原始生活</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="subblock oneThirdBlock Small Small-right">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">Small</div>
+                <div class="description">small</div>
+            </div>
+            <div class="content">
+
+
+                <div class="images">
+                    <div class="item big first">
+                        <a href="#" class="image">
+                            <img src="images/MainUp-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainUp-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainUp-3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainUp-4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainUp-5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/MainUp-6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="block block8 Three">
+    <div class="subblock">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">Three</div>
+                <div class="description">three</div>
+            </div>
+            <div class="content">
+
+                <div class="block">
+                    <div class="subblock ThreeItem ThreeItem-first">
+                        <div class="item">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#" class="image">
+                                            <img src="images/catThree-1.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <div class="overview">
+                                            <a href="#" class="title">刘翔训练时打破世界纪录</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="subblock ThreeItem ThreeItem-second">
+                        <div class="item">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#" class="image">
+                                            <img src="images/catThree-2.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <div class="overview">
+                                            <a href="#" class="title">香港名媛私密生活大揭秘</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="subblock ThreeItem ThreeItem-third">
+                        <div class="item">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#" class="image">
+                                            <img src="images/catThree-3.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <div class="overview">
+                                            <a href="#" class="title">拼爹不灵了，我舅是司令</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="subblock ThreeItem ThreeItem-fourth">
+                        <div class="item">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#" class="image">
+                                            <img src="images/catThree-2.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <div class="overview">
+                                            <a href="#" class="title">刘翔训练时打破世界纪录</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="subblock ThreeItem ThreeItem-fifth">
+                        <div class="item">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#" class="image">
+                                            <img src="images/catThree-3.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <div class="overview">
+                                            <a href="#" class="title">香港名媛私密生活大揭秘</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="subblock ThreeItem ThreeItem-sixth">
+                        <div class="item">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="#" class="image">
+                                            <img src="images/catThree-1.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <div class="overview">
+                                            <a href="#" class="title">拼爹不灵了，我舅是司令</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="block block9">
+    <div class="subblock twoThirdsBlock">
+        <div class="content indentContent">
+
+            <div class="block Chess">
+                <div class="subblock">
+                    <div class="contentBlock">
+                        <div class="heading">
+                            <div class="title">Chess</div>
+                            <div class="description">chess</div>
+                        </div>
+                        <div class="content">
+
+                            <ul class="previews">
+                                <li class="item first">
+                                    <div class="imageContainer">
+                                        <a href="#" class="image">
+                                            <img src="images/MainChess-1.jpg" alt="">
+                                        </a>
+                                    </div>
+
+                                    <a href="#" class="title">斯诺克上海赛丁俊晖首轮出局</a>
+                                </li>
+
+                                <li class="item second">
+                                    <div class="imageContainer">
+                                        <a href="#" class="image">
+                                            <img src="images/MainChess-2.jpg" alt="">
+                                        </a>
+                                    </div>
+
+                                    <a href="#" class="title">郭晶晶退出体坛后大变身</a>
+                                </li>
+
+                                <li class="item third">
+                                    <div class="imageContainer">
+                                        <a href="#" class="image">
+                                            <img src="images/MainChess-3.jpg" alt="">
+                                        </a>
+                                    </div>
+
+                                    <a href="#" class="title">吸管成就义乌头号亿万富翁</a>
+                                </li>
+                            </ul>
+
+                            <div class="links">
+                                <ul>
+                                    <li>
+                                        <a href="#">探访关岛原住民生存方式</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">一张看哭亿万人的图</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">央视知名主播直播现场发飙</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">超1.5亿天价劳斯莱斯现身广州车展</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">老乞丐一番话感动所有中国人</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">湖北农民自制潜艇成功下水</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">王励勤女友与型男谈笑风生</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">现代汽车从笑话变神话</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">讴歌2012款金秋入华</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">面试时反客为主的妙语</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subblock oneThirdBlock Stuff">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">Stuff</div>
+                <div class="description">stuff</div>
+            </div>
+            <div class="content">
+                <ul class="imagesList">
+                    <li class="item first">
+                        <a href="#" class="image">
+                            <img src="images/TransitStuff-1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="item second">
+                        <a href="#" class="image">
+                            <img src="images/TransitStuff-2.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="item third">
+                        <a href="#" class="image">
+                            <img src="images/TransitStuff-3.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li class="item fourth">
+                        <a href="#" class="image">
+                            <img src="images/TransitStuff-4.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="item fifth">
+                        <a href="#" class="image">
+                            <img src="images/TransitStuff-5.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li class="item sixth">
+                        <a href="#" class="image">
+                            <img src="images/TransitStuff-6.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="item seventh">
+                        <a href="#" class="image">
+                            <img src="images/TransitStuff-7.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="item last">
+                        <a href="#" class="image">
+                            <img src="images/TransitStuff-8.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="block block10 SpareBlock">
+    <div class="subblock">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">SpareBlock</div>
+                <div class="description">spareblock</div>
+            </div>
+            <div class="content">
+
+
+                <div class="block ">
+                    <div class="subblock SpareBlockItem SpareBlockItem-left">
+                        <div class="content">
+
+                            <div class="item">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitBlock-1.jpg" alt="">
+
+                                        <p class="overview">
+                                            <span class="title">央视化妆师称春晚置装太烧钱</span>
+                                            <span class="description">每年春晚主持人一套裙子就30多万</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="dotsSeparator"></div>
+                            <div class="item">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitBlock-2.jpg" alt="">
+
+                                        <p class="overview">
+                                            <span class="title">疑犯看守所内挖地道逃亡</span>
+                                            <span class="description">潜逃15年后终被警方擒获</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subblock SpareBlockItem SpareBlockItem-center">
+                        <div class="content">
+                            <div class="item">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitBlock-3.jpg" alt="">
+
+                                        <p class="overview">
+                                            <span class="title">芙蓉姐姐被称“励志女神”</span>
+                                            <span class="description">芙蓉姐姐做客央视大型励志脱口秀节目《奋斗》节目</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="dotsSeparator"></div>
+                            <div class="item">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitBlock-4.jpg" alt="">
+
+                                        <p class="overview">
+                                            <span class="title">感动万千网友的母女</span>
+                                            <span class="description">路灯下，6岁的卫豪丹聚精会神地做作业，一旁，母亲在卖糖葫芦</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subblock SpareBlockItem SpareBlockItem-right">
+                        <div class="content">
+                            <div class="item">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitBlock-5.jpg" alt="">
+
+                                        <p class="overview">
+                                            <span class="title">这个星球上最小的汽车</span>
+                                            <span class="description">小车更环保</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="dotsSeparator"></div>
+                            <div class="item">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitBlock-6.jpg" alt="">
+
+                                        <p class="overview">
+                                            <span class="title">姚明北京豪宅曝光</span>
+                                            <span class="description">京城最贵的房子，现在要卖10万一平米</span>
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="block block11">
+    <div class="subblock twoThirdsBlock ChessSmall">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">ChessSmall</div>
+                <div class="description">chesssmall</div>
+            </div>
+            <div class="content indentContent">
+                <div class="block">
+                    <div class="subblock">
+                        <ul class="list">
+                            <li class="item odd first">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessSmall-1.jpg" alt="">
+
+                                        <p class="title">偏家用的动感轿跑</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="item even">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessSmall-2.jpg" alt="">
+
+                                        <p class="title">女孩跳楼妈妈飞奔楼下接住</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="item odd">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessSmall-3.jpg" alt="">
+
+                                        <p class="title">雪佛兰迈锐宝实拍解析</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="item even next">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessSmall-4.jpg" alt="">
+
+                                        <p class="title">揭秘郑州娶老婆成本</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="item odd next">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessSmall-5.jpg" alt="">
+
+                                        <p class="title">房价毁掉的爱情是真的吗</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="item even next">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessSmall-6.jpg" alt="">
+
+                                        <p class="title">央视网女记者无辜遭人割鼻</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="item odd">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessSmall-7.jpg" alt="">
+
+                                        <p class="title">NBA科比十年婚姻到尽头</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="item even">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessSmall-8.jpg" alt="">
+
+                                        <p class="title">深度试驾宾利慕尚</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="item odd last">
+                                <div class="container">
+                                    <a href="#" class="image">
+                                        <img src="images/TransitChessSmall-9.jpg" alt="">
+
+                                        <p class="title">苍井空中网为李娜助威</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="subblock oneThirdBlock TxtList">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">TxtList</div>
+                <div class="description">txtlist</div>
+            </div>
+            <div class="content">
+                <ul class="list">
+                    <li class="item first">
+                        <a href="#">
+                            <span class="title">推荐4款值得购买的进口SUV</span>
+                                    <span class="action">
+                                        <em>点击</em>
+                                    </span>
+                        </a>
+
+                        <div class="dotsSeparator"></div>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <span class="title">豪华婚礼 没有最贵只有更贵</span>
+                                    <span class="action">
+                                        <em>点击</em>
+                                    </span>
+                        </a>
+
+                        <div class="dotsSeparator"></div>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <span class="title">八大最受欢迎的考古发现</span>
+                                    <span class="action">
+                                        <em>点击</em>
+                                    </span>
+                        </a>
+
+                        <div class="dotsSeparator"></div>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <span class="title">小萧亚轩献身法拉利</span>
+                                    <span class="action">
+                                        <em>点击</em>
+                                    </span>
+                        </a>
+
+                        <div class="dotsSeparator"></div>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <span class="title">国内新能源汽车市场"断电"</span>
+                                    <span class="action">
+                                        <em>点击</em>
+                                    </span>
+                        </a>
+
+                        <div class="dotsSeparator"></div>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <span class="title">北京未来第一高楼下周开工</span>
+                                    <span class="action">
+                                        <em>点击</em>
+                                    </span>
+                        </a>
+
+                        <div class="dotsSeparator"></div>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <span class="title">奥迪A1对比大众POLO</span>
+                                    <span class="action">
+                                        <em>点击</em>
+                                    </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="block block12 BigWide">
+    <div class="contentBlock">
+        <div class="heading">
+            <div class="title">BigWide</div>
+            <div class="description">bigwide</div>
+        </div>
+        <div class="content">
+
+            <div class="block squaredLarge">
+                <div class="subblock quarter BigWideItem">
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/CatWide-1.jpg" alt="">
+
+                            <p class="title">
+                                <span>农民送滞销萝卜遭万人哄抢</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="subblock quarter BigWideItem">
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/CatWide-2.jpg" alt="">
+
+                            <p class="title">
+                                <span>迪拜街上奔驰的超级跑车</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="subblock quarter BigWideItem">
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/CatWide-3.jpg" alt="">
+
+                            <p class="title">
+                                <span>盘点身价过亿的美女CEO</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="subblock quarter BigWideItem">
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/CatWide-4.jpg" alt="">
+
+                            <p class="title">
+                                <span>女人最爱做7件傻事</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="block block13">
+    <div class="subblock half Square">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">Square</div>
+                <div class="description">square</div>
+            </div>
+            <div class="content">
+                <div class="block">
+                    <div class="subblock SquareItem">
+                        <div class="item">
+                            <a href="#" class="image">
+                                <img src="images/CatSquare.jpg" alt="">
+
+                                <p class="title">
+                                    <span>云南跳水0分门事件</span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="subblock half TxtList">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">TxtList</div>
+                <div class="description">txtlist</div>
+            </div>
+            <div class="content">
+                <div class="list">
+                    <div class="item">
+                        <a href="#">
+                            <span class="title">如何应对冬季行车恐惧症</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="dotsSeparator"></div>
+                    <div class="item">
+                        <a href="#">
+                            <span class="title">体验奥迪R8 Spyder</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="dotsSeparator"></div>
+                    <div class="item">
+                        <a href="#">
+                            <span class="title">如何消灭库存降低成本</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="dotsSeparator"></div>
+                    <div class="item">
+                        <a href="#">
+                            <span class="title">东莞女打工者真实生活大曝光</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="dotsSeparator"></div>
+                    <div class="item">
+                        <a href="#">
+                            <span class="title">南非暴力黑帮生活实录</span>
+                            <span class="action">
+                                <em>点击</em>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="block block14">
+    <div class="subblock half Double">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">Double</div>
+                <div class="description">double</div>
+            </div>
+            <div class="content">
+                <div class="imagesList">
+                    <div class="item first big">
+                        <a href="#" class="image">
+                            <img src="images/CatDouble2-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item second">
+                        <a href="#" class="image">
+                            <img src="images/CatDouble2-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/CatDouble2-3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subblock half Double">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">Double</div>
+                <div class="description">double</div>
+            </div>
+            <div class="content">
+                <div class="imagesList">
+                    <div class="item first">
+                        <a href="#" class="image">
+                            <img src="images/CatDouble-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item second">
+                        <a href="#" class="image">
+                            <img src="images/CatDouble-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/CatDouble-3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="image">
+                            <img src="images/CatDouble-4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="block block15 Long">
+    <div class="subblock">
+        <div class="contentBlock">
+            <div class="heading">
+                <div class="title">Long</div>
+                <div class="description">long</div>
+            </div>
+            <div class="content">
+                <ul class="slider" id="mainLong-slider">
+                    <li>
+                        <a href="#" class="image">
+                            <img src="images/TransitLong-1.jpg" style="width: 155px; height: 155px" alt="">
+
+                            <p class="title">
+                                <span>金正恩出手先打北京</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="image">
+                            <img src="images/TransitLong-2.jpg" style="width: 155px; height: 155px" alt="">
+
+                            <p class="title">
+                                <span>揭秘周总理留下的千古之谜</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="image">
+                            <img src="images/TransitLong-3.jpg" style="width: 155px; height: 155px" alt="">
+
+                            <p class="title">
+                                <span>毛泽东令人震惊的绝密往事</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="image">
+                            <img src="images/TransitLong-4.jpg" style="width: 155px; height: 155px" alt="">
+
+                            <p class="title">
+                                <span>杀人犯躲地窖12年变白毛男</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="image">
+                            <img src="images/TransitLong-5.jpg" style="width: 155px; height: 155px" alt="">
+
+                            <p class="title">
+                                <span>乔布斯生命中的最后数周</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="image">
+                            <img src="images/TransitLong-6.jpg" style="width: 155px; height: 155px" alt="">
+
+                            <p class="title">
+                                <span>自习室送歌女生网络走红</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="image">
+                            <img src="images/TransitLong-7.jpg" style="width: 155px; height: 155px" alt="">
+
+                            <p class="title">
+                                <span>日常养车常见误区</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="image">
+                            <img src="images/TransitLong-8.jpg" style="width: 155px; height: 155px" alt="">
+
+                            <p class="title">
+                                <span>萝卜哥广场求婚终抱得美人归</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="image">
+                            <img src="images/TransitLong-9.jpg" style="width: 155px; height: 155px" alt="">
+
+                            <p class="title">
+                                <span>肯德基陷“用油门”事件</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="image">
+                            <img src="images/TransitLong-10.jpg" style="width: 155px; height: 155px" alt="">
+
+                            <p class="title">
+                                <span>80后潮妈必备"俊俏"车</span>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+</div>
+</div>
+</body>
+</html>

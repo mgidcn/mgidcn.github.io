@@ -1,0 +1,316 @@
+#header .logo a {
+  background-image: url(images/logo.png) !important;
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/logo.png',sizingMethod='crop');
+}
+
+#header .more a {
+  background-image: url(images/menuMoreButton.png) !important;
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/menuMoreButton.png',sizingMethod='crop');
+}
+
+#headerBorder .corner .edge {
+  background-image: url(images/topBorderCorner.png) !important;
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/topBorderCorner.png',sizingMethod='crop');
+}
+
+#mainContainer {
+  background-image: url(images/topBackground.png) !important;
+}
+
+.status-hotColorLeft {
+  background-image: url(images/hotColorLeftFlag.png) !important;
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/hotColorLeftFlag.png',sizingMethod='crop');
+
+}
+
+.status-hotMonoRight {
+  background-image: url(images/hotMonoRightFlag.png) !important;
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/hotMonoRightFlag.png',sizingMethod='crop');
+
+}
+
+.status-newMonoRight {
+  background-image: url(images/newMonoRightFlag.png) !important;
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/newMonoRightFlag.png',sizingMethod='crop');
+}
+
+.dotsSeparator {
+  background-image: url(images/dotsSeparator.png) !important;
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/dotsSeparator.png',sizingMethod='crop');
+}
+
+#mainWindow-slider .item .overviewContainer {
+  background: url(images/topMainNewsBackground.png) no-repeat !important;
+}
+
+#mainWindowBottom {
+  background-image: url(images/topShadow.jpg) !important;
+}
+
+#hotNewsSlider .leftButton {
+  background-image: url(images/leftButton.png) !important;
+}
+
+#hotNewsSlider .rightButton {
+  background-image: url(images/rightButton.png) !important;
+}
+
+#WeiboIcon {
+  background-image: url(images/WeiboAvatar.png) !important;
+}
+
+#mainTxt-list .action,
+#mainUp-list .action,
+#mainTxt-list .item a:hover .action,
+#mainUp-list .item a:hover .action {
+  background-image: url(images/arrowRightDirectionIcon.png) !important;
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/arrowRightDirectionIcon.png',sizingMethod='crop');
+}
+
+#mainUp-list .selected .action {
+  background-image: url(images/arrowDownDirectionIcon.png) !important;
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/arrowDownDirectionIcon.png',sizingMethod='crop');
+}
+
+.prevBtn {
+  background-image: url(images/navigationLeftButton.png) !important;
+}
+
+.nextBtn {
+  background-image: url(images/navigationRightButton.png) !important;
+}
+
+a.mb-scrollButtons.mb-left {
+  background-image: url(images/leftButton.png);
+}
+
+a.mb-scrollButtons.mb-right {
+  background-image: url(images/rightButton.png);
+}
+
+.ui-state-active {
+  background-image: url(images/accordionActiveTabBackground.png);
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/accordionActiveTabBackground.png',sizingMethod='crop');
+}
+
+.ui-state-default .ui-icon,
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+  background-image: url(images/plusButton.png);
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/plusButton.png',sizingMethod='crop');
+}
+
+.ui-state-active .ui-icon {
+  background-image: url(images/minusButton.png);
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/minusButton.png',sizingMethod='crop');
+}
+
+#mainPlus-accordion .ui-state-default .ui-icon {
+  background-image: url(images/plusIcon.png) !important;
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/plusIcon.png',sizingMethod='crop');
+}
+
+#mainPlus-accordion .ui-state-active .ui-icon {
+  background-image: url(images/minusIcon.png) !important;
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/minusIcon.png',sizingMethod='crop');
+}
+
+#mainTxt-list a {
+  display: block;
+  cursor: pointer;
+  height: 15px;
+}
+
+#mainUp-list .link a {
+  display: block;
+  cursor: pointer;
+  height: 15px;
+}
+
+#mainSliding .mb-left {
+  background-image: url(images/navigationLeftButton.png);
+}
+
+#mainSliding .mb-right {
+  background-image: url(images/navigationRightButton.png);
+}
+
+#hotNews .image:hover {
+  border: 2px solid grey;
+}
+
+
+#mainWide .mb-scrollButtons {
+  margin-top: 0;
+  top: 10px;
+}
+
+#mainSliding .mb-scrollButtons {
+  margin-top: 0;
+  top: 90px;
+}
+
+
+#hotNews .image {
+  border: 3px solid white;
+}
+
+#hotNews .image:hover {
+  border: 3px solid black;
+}
+
+#mainVertical-mainItem .item {
+  border: 2px solid white;
+}
+
+#mainVertical-mainItem .item:hover {
+  border-color: #6e6e6e;
+}
+
+#mainVertical-list {
+  width: 414px;
+}
+
+#mainErect-imagesList {
+  padding: 0;
+}
+
+#mainErect-firstLineImages .first {
+  padding-right: 0;
+}
+
+#mainErect-imagesList .image {
+  border: 2px solid white;
+}
+
+#mainErect-imagesList .image:hover {
+  border: 2px solid #0072ff;
+}
+
+#mainErect-firstLineImages .image,
+#mainErect-firstLineImages .image:hover {
+  border-width: 1px;
+}
+
+#mainErect-secondLineImages,
+#mainErect-fourthLineImages {
+  height: 104px;
+}
+
+#mainErect-thirdLineImages {
+  height: 94px;
+}
+
+#mainChess-previews .image {
+  border: 3px solid white;
+}
+
+#mainChess-previews .image:hover {
+  border-color: #787878;
+}
+
+#mainGroup .image {
+  border: 3px solid #F6F6F6;
+}
+
+#mainGroup .image:hover {
+  border-color: #494949;
+}
+
+#mainPlus .image {
+  border: 4px solid white;
+}
+
+#mainPlus .image:hover {
+  border-color: #c5c5c5;
+}
+
+#mainInsert .mainItem .image {
+  border: 3px solid #F6F6F6;
+}
+
+#mainInsert .mainItem .image:hover {
+  border-color: #949494;
+}
+
+#mainInsert .images {
+  overflow: hidden;
+}
+
+#mainInsert .images .item {
+  margin-left: 9px;
+}
+
+#mainInsert .images .first {
+  margin-left: 0;
+}
+
+#mainInsert .images .image {
+  border: 3px solid #F6F6F6;
+}
+
+#mainInsert .images .image:hover {
+  border-color: #76b1fa;
+}
+
+#mainSimple-topItem .image {
+  border: 2px solid white;
+}
+
+#mainSimple-topItem .image:hover {
+  border-color: black;
+}
+
+#mainUp-accordion .ui-accordion-header .ui-icon {
+  background-image: url(images/arrowRightDirectionIcon.png);
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/arrowRightDirectionIcon.png',sizingMethod='crop');
+}
+
+#mainUp-accordion .ui-state-active .ui-icon {
+  background-image: url(images/arrowDownDirectionIcon.png);
+  
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/arrowDownDirectionIcon.png',sizingMethod='crop');
+}
+
+#mainUp-accordion td.imageContainer {
+  width: 108px;
+}
+
+#mainUp-accordion .image {
+  border: 4px solid white;
+}
+
+#mainUp-accordion .image:hover {
+  border-color: #c5c5c5;
+}

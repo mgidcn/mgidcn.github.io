@@ -1,0 +1,364 @@
+/*** MovingBoxes ***/
+
+a.mb-scrollButtons.mb-left {
+    background-image: url(images/leftButton.png);
+}
+
+a.mb-scrollButtons.mb-right {
+    background-image: url(images/rightButton.png);
+}
+
+/*** end of MovingBoxes ***/
+
+
+/*** Main Page Container ***/
+
+.status-hotColorLeft {
+    background-image: url(images/hotColorLeftFlag.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/hotColorLeftFlag.png',sizingMethod='crop');
+}
+
+.status-hotMonoRight {
+    background-image: url(images/hotMonoRightFlag.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/hotMonoRightFlag.png',sizingMethod='crop');
+}
+
+.status-newMonoRight {
+    background-image: url(images/newMonoRightFlag.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/newMonoRightFlag.png',sizingMethod='crop');
+}
+
+.dotsSeparator {
+    background-image: url(images/dotsSeparator.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/dotsSeparator.png',sizingMethod='crop');
+}
+
+#footer .logotype a {
+    background-image: url(images/logoBottom.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/logoBottom.png',sizingMethod='crop');
+}
+
+#mainContainer {
+    background-image: url(images/topBackground.png);
+}
+
+#header .logo a {
+    background-image: url(images/logo.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/logo.png',sizingMethod='crop');
+}
+
+#headerBorder .corner .edge {
+    background-image: url(images/topBorderCorner.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/topBorderCorner.png',sizingMethod='crop');
+}
+
+#header .more a {
+    background-image: url(images/menuMoreButton.png);
+
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/menuMoreButton.png',sizingMethod='crop');
+}
+
+.prevBtn {
+    background-image: url(images/navigationLeftButton.png);
+}
+
+.nextBtn {
+    background-image: url(images/navigationRightButton.png);
+}
+
+#loading .item {
+	background-image: url(images/loadingIcon.gif);
+}
+
+.Window .slider .item .overviewContainer {
+    background-image: url(images/topMainNewsBackground.png);
+}
+
+.WindowBottom {
+    background-image: url(images/topShadow.jpg);
+}
+
+.SlideWindow .controls a {
+    background-image: url(images/dotIcon.png);
+}
+
+.Hot .image {
+    background-image: url(images/catHotNewsImageBackground.png);
+}
+
+.Hot .overview {
+    background-image: url(images/catHotNewsBodyBackground.png);
+}
+
+.Hot .contentHot:hover .image {
+    background-image: url(images/catHotNewsImageBackground-hover.png);
+}
+
+.Hot .contentHot:hover .overview {
+    background-image: url(images/catHotNewsBodyBackground-hover.png);
+}
+
+.Wide .jcarousel-prev {
+    background: url(images/leftButton.png);
+}
+
+.Wide .jcarousel-next {
+    background: url(images/rightButton.png);
+}
+
+.Txt .list .action {
+    background-image: url(images/arrowRightDirectionIcon.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/arrowRightDirectionIcon.png',sizingMethod='crop');
+}
+
+.Txt .list .item a:hover .action {
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/arrowRightDirectionIcon.png',sizingMethod='crop');
+}
+
+.Simple .container .separator div {
+    background-image: url(images/dotsSeparatorVertical.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/dotsSeparatorVertical.png',sizingMethod='crop');
+}
+
+.Insert .ui-state-default .ui-icon,
+.Insert .ui-state-hover .ui-icon,
+.Insert .ui-state-focus .ui-icon {
+    background-image: url(images/plusButton.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/plusButton.png',sizingMethod='crop');
+}
+
+.Insert .ui-state-active .ui-icon {
+    background-image: url(images/minusButton.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/minusButton.png',sizingMethod='crop');
+}
+
+.Insert .ui-state-active {
+    background-image: url(images/accordionActiveTabBackground.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/accordionActiveTabBackground.png',sizingMethod='crop');
+
+    background-color: #f6f6f6;
+}
+
+.Plus .accordion .ui-state-default .ui-icon {
+    background-image: url(images/plusIcon.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/plusIcon.png',sizingMethod='crop');
+}
+
+.Plus .accordion .ui-state-active .ui-icon {
+    background-image: url(images/minusIcon.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/minusIcon.png',sizingMethod='crop');
+}
+
+.Sliding .mb-left {
+    background-image: url(images/navigationLeftButton.png);
+}
+
+.Sliding .mb-right {
+    background-image: url(images/navigationRightButton.png);
+}
+
+.Three .item {
+    background-image: url(images/catThreeItemBackground.jpg);
+}
+
+.SpareBlock .item a:hover {
+    background-image: url(images/catThreeItemBackground.jpg);
+}
+
+.TxtList .list .action {
+    background-image: url(images/arrowRightDirectionIcon.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/arrowRightDirectionIcon.png',sizingMethod='crop');
+}
+
+.TxtList .list .item:hover .action {
+    background-image: url(images/arrowRightWhiteDirectionIcon.png);
+
+    /* IE 6 */
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/arrowRightWhiteDirectionIcon.png',sizingMethod='crop');
+}
+
+.Long .jcarousel-prev {
+    background-image: url(images/leftButton.png);
+}
+
+.Long .jcarousel-next {
+    background-image: url(images/rightButton.png);
+}
+
+.Wide .hotNews .image {
+    border: 3px solid white;
+}
+
+.Wide .hotNews .image:hover {
+    border-color: #808080;
+}
+
+
+.Erect .imagesList {
+    padding: 0;
+}
+
+.Erect .firstLineImages .first {
+    padding-right: 0;
+}
+
+.Erect .imagesList .image {
+    border: 2px solid white;
+}
+
+.Erect .imagesList .image:hover {
+    border: 2px solid #0072ff;
+}
+
+.Erect .firstLineImages .image,
+.Erect .firstLineImages .image:hover {
+    border-width: 1px;
+}
+
+.Erect .secondLineImages,
+.Erect .fourthLineImages {
+    height: 104px;
+}
+
+.Erect .thirdLineImages {
+    height: 94px;
+}
+
+.Simple .topItem .image {
+    border: 2px solid white;
+}
+
+.Simple .topItem .image:hover {
+    border-color: black;
+}
+
+.Chess .previews .image {
+    border: 3px solid white;
+}
+
+.Chess .previews .image:hover {
+    border-color: #787878;
+}
+
+.Group .image {
+    border: 3px solid #F6F6F6;
+}
+
+.Group .image:hover {
+    border-color: #494949;
+}
+
+.Plus .image {
+    border: 4px solid white;
+}
+
+.Plus .image:hover {
+    border-color: #c5c5c5;
+}
+
+.Insert .mainItem .image {
+    border: 3px solid #F6F6F6;
+}
+
+.Insert .mainItem .image:hover {
+    border-color: #949494;
+}
+
+.Insert .images {
+    overflow: hidden;
+}
+
+.Insert .images .item {
+    margin-left: 9px;
+}
+
+.Insert .images .first {
+    margin-left: 0;
+}
+
+.Insert .images .image {
+    border: 3px solid #F6F6F6;
+}
+
+.Insert .images .image:hover {
+    border-color: #76b1fa;
+}
+
+.Stuff .imagesList {
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+}
+
+.Stuff .imagesList .item .image {
+    border: 2px solid white;
+}
+
+.Stuff .imagesList .fourth .image,
+.Stuff .imagesList .fifth .image {
+    border: 1px solid white;
+}
+
+.Stuff .imagesList .item .image:hover {
+    border-color: #0072ff;
+}
+
+.Stuff .imagesList .second,
+.Stuff .imagesList .third,
+.Stuff .imagesList .seventh,
+.Stuff .imagesList .last {
+    margin-left: 6px;
+}
+
+.Stuff .imagesList .fifth {
+    margin-left: 0;
+}
